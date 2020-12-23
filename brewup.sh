@@ -13,6 +13,7 @@ yellow=$(tput setaf 3)
 blue=$(tput setaf 4)
 reset=$(tput sgr0)
 brewFileName="Brewfile.${HOSTNAME}"
+alias brew='doas -u a brew'
 
 # Sets Working Dir as Real A Script Location
 if [ -z $(which realpath) ]; then
