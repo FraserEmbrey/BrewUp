@@ -1,0 +1,85 @@
+tap "clementtsang/bottom"
+tap "federico-terzi/espanso"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "koekeishiya/formulae"
+tap "nextdns/tap"
+brew "awscli"
+brew "bat"
+brew "coreutils"
+brew "dnsmasq", restart_service: true
+brew "exa"
+brew "fd"
+brew "fish"
+brew "fzf"
+brew "gh"
+brew "mas"
+brew "neovim"
+brew "node"
+brew "putty"
+brew "r"
+brew "ripgrep"
+brew "starship"
+brew "syncthing", restart_service: true
+brew "termtosvg"
+brew "vim"
+brew "yarn"
+brew "zoxide"
+brew "clementtsang/bottom/bottom"
+brew "federico-terzi/espanso/espanso"
+brew "koekeishiya/formulae/skhd"
+brew "koekeishiya/formulae/yabai"
+brew "nextdns/tap/nextdns"
+cask "airtable"
+cask "alfred"
+cask "appcleaner"
+cask "daisydisk"
+cask "firefox-nightly"
+cask "font-recursive"
+cask "font-victor-mono-nerd-font"
+cask "glyphs"
+cask "intel-power-gadget"
+cask "iterm2"
+cask "logitech-options"
+cask "max"
+cask "minecraft"
+cask "mountain-duck"
+cask "netnewswire"
+cask "notion"
+cask "protonmail-bridge"
+cask "react-studio"
+cask "rstudio"
+cask "safari-technology-preview"
+cask "sameboy"
+cask "signal-beta"
+cask "sketch"
+cask "standard-notes"
+cask "suspicious-package"
+cask "tor-browser"
+cask "typora"
+cask "ubersicht"
+cask "vmware-fusion"
+cask "vscodium"
+cask "wacom-tablet"
+mas "Affinity Designer", id: 824171161
+mas "Affinity Photo", id: 824183456
+mas "Affinity Publisher", id: 881418622
+mas "Bear", id: 1091189122
+mas "Cascadea", id: 1432182561
+mas "Darkroom", id: 953286746
+mas "Expenses", id: 1492055171
+mas "Honey", id: 1472777122
+mas "Journey", id: 1489704689
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Parcel", id: 639968404
+mas "Things", id: 904280696
+mas "ToothFairy", id: 1191449274
+mas "Tot", id: 1491071483
+mas "Xcode", id: 497799835
